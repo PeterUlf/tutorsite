@@ -1,5 +1,6 @@
 body {
   background-color: #efe50a;
+  padding: 2rem;
 }
 
 h1 {
@@ -8,7 +9,7 @@ h1 {
 
 .columns {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: auto auto;
 }
 
 .tiny5-regular {
