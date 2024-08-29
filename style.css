@@ -6,6 +6,11 @@ h1 {
   color: #231f20;
 }
 
+.columns {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
 .tiny5-regular {
   font-family: "Tiny5", sans-serif;
   font-weight: 400;
