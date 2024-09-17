@@ -58,6 +58,7 @@ h1 {
 .columns {
   display: grid;
   grid-template-columns: auto;
+  text-align: right;
 }
 
 .tiny5-regular {
