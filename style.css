@@ -26,6 +26,7 @@ header div {
   grid-template-columns: auto auto;
 
   gap: 1rem;
+  align-items: center;
 }
 
 @media (max-width: 1000px) {
