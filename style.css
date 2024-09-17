@@ -1,9 +1,46 @@
 body {
   background-color: #efe50a;
   padding: 2rem;
+  border: 1px solid black;
+  aspect-ratio: 16/9;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  flex-grow: 1;
+}
+
+header > :first-child {
+  margin-right: auto;
+}
+
+@media (max-width: 1000px) {
+  header div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 1rem;
+    width: 100%;
+  }
+}
+
+header div img {
+  margin-left: auto;
+}
+
+header div * {
+  flex-grow: 1;
+}
+
+iframe {
+  width: 100%;
 }
 img {
-  width: 200px;
+  width: 100px;
+  aspect-ratio: 1 / 1;
 }
 
 h1 {
@@ -12,7 +49,7 @@ h1 {
 
 .columns {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
 }
 
 .tiny5-regular {
