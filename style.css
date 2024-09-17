@@ -16,13 +16,15 @@ header {
 header > :first-child {
   margin-right: auto;
 }
+header div {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  gap: 1rem;
+}
 
 @media (max-width: 1000px) {
   header div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    gap: 1rem;
     width: 100%;
   }
 }
