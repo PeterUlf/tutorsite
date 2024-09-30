@@ -66,6 +66,7 @@ h1 {
   display: grid;
   grid-template-columns: auto 610px;
   text-align: right;
+  gap: 10px;
 }
 
 .tiny5-regular {
