@@ -64,7 +64,7 @@ h1 {
 
 .columns {
   display: grid;
-  grid-template-columns: 2fr 601px;
+  grid-template-columns: auto 610px;
   text-align: right;
 }
 
@@ -88,4 +88,5 @@ iframe {
   border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
