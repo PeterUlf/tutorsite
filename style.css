@@ -39,6 +39,26 @@ header div {
   }
 }
 
+.moede_i_teams {
+  background-color: white;
+  text-align: left;
+}
+.moede_i_teams img {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+  aspect-ratio: auto;
+}
+.moede_i_teams h2 {
+  padding: 50px 0 0 0;
+}
+
+.vejledning {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
 @media (max-width: 1000px) {
   header div {
     width: 100%;
