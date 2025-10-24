@@ -43,22 +43,28 @@ header div {
 .moede_i_teams {
   background-color: white;
   text-align: left;
+  padding: 20px;
+  & p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+  }
 }
 .moede_i_teams img {
   width: 100%;
   height: auto;
-  margin: 50px 0;
+  /* margin: 50px 0; */
   aspect-ratio: auto;
+  border: solid 1px red;
 }
 .moede_i_teams h2 {
-  padding: 50px 0 0 0;
+  /* padding: 50px 0 0 0; */
 }
 
 .vejledning {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  padding: 20px;
+  padding: 20px 0;
 }
 @media (max-width: 1000px) {
   header div {
